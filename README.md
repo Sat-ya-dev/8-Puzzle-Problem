@@ -1,1 +1,2 @@
 # 8-Puzzle-Problem
+The 8-Puzzle problem is a puzzle consisting of a 3x3 grid with eight numbered tiles and one empty space. The goal is to rearrange the tiles from an initial scrambled configuration to a target configuration by sliding them into the empty space. I have implemented it using A* search and the heuristics function that I used was sum of manhattan distance of tiles in initial configuration wrt the goal configuration. Then I also compared its performance with other heuristics based on the number of leaves explored. 
